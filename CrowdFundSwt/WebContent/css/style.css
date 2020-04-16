@@ -1,0 +1,58 @@
+.white {
+  color: #ddd;
+}
+
+body {
+  background-color: #ddd;
+  padding-top: 4.5rem;
+}
+
+a.nav-link:hover {
+  color: #ddd;
+  background-color: #000;
+}
+
+a.navbar-brand {
+  padding: 0 0.5em;
+  transition: 0.3s;
+}
+
+a.navbar-brand:hover {
+  background-color: rgb(65, 117, 124);
+}
+
+.zcard {
+  transition: 0.15s;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.zcard:hover {
+  scale: 1.04;
+}
+
+.mya {
+    color: #000;
+}
+
+.mya:hover {
+    text-decoration: none;
+}
+
+.status {
+    text-align: center;
+    padding: 0.2em;
+}
+
+.Open {
+    background: rgb(230, 200, 120);
+}
+
+.Successful {
+    background: rgb(168, 189, 139);
+}
+
+.Failed {
+    background: rgb(235, 161, 171);
+}
